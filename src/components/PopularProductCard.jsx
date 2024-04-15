@@ -3,7 +3,7 @@ import star from "../assets/icons/star.svg";
 
 const PopularProductCard = ({ imgURL, name, price }) => {
   return (
-    <div className="flex flex-1 flex-col w-full max-sm:w-full">
+    <div className="flex flex-1 flex-col w-full max-sm:w-full ">
       <img
         src={imgURL}
         alt={name}
