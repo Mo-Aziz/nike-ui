@@ -4,8 +4,8 @@ import { navLinks } from "../constants";
 
 const Navbar = () => {
   return (
-    <header className="padding-x py-8 absolute z-10 w-full">
-      <nav className="flex justify-between items-center max-container">
+    <header className="padding-x py-8 absolute z-10 w-full  mb-8">
+      <nav className="flex justify-between items-center max-container ">
         {/* Nike logo  */}
         <a href="/">
           <img src={headerLogo} alt="logo" width={400} height={60} />
