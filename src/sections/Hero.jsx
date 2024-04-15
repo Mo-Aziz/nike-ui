@@ -30,7 +30,11 @@ const Hero = () => {
           Discover Stlyish Nike Shoes arrivals, real comfort, and innovations
           for your busy life.
         </p>
-        <Button label="Shop now" iconUrl={arrowRight} />
+        <Button
+          label="Shop now"
+          iconURL={arrowRight}
+          backgroundColor="bg-coral-red"
+        />
         {/* statstics section */}
         <div className="flex justify-start items-start flex-wrap w-full mt-16 gap-16">
           {statistics.map((stat) => (
